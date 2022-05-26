@@ -11,12 +11,12 @@ import { useGLTF } from '@react-three/drei'
 
 export default function Model({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/IPhone.gltf')
+  const { nodes, materials } = useGLTF('/models/Iphone.gltf')
   return (
     <group ref={group} {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
-          <group scale={500}>
+          <group scale={600}>
             <mesh geometry={nodes.Body_Mic_0.geometry} material={materials.material} />
             <mesh geometry={nodes.Body_Bezel_0.geometry} material={materials.Bezel} />
             <mesh geometry={nodes.Body_Body_0.geometry} material={materials.Body} />
@@ -53,4 +53,4 @@ export default function Model({ ...props }) {
   )
 }
 
-useGLTF.preload('/IPhone.gltf')
+useGLTF.preload('/Iphone.gltf')
