@@ -34,6 +34,7 @@ function Register() {
               id="defaultFormLoginPasswordEx"
               className="form-control"
             />
+            <br />
             <label htmlFor="defaultFormRepeatLoginPasswordEx" className="grey-text">
               Repeat Your Password
             </label>
