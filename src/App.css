@@ -15,11 +15,3 @@
   font-size: 2rem;
 }
 
-.canvasIphone {
-  position: sticky;
-  display: block;
-  margin: 20px;
-  margin-top: 3rem;
-  overflow: hidden;
-  outline: none;
-}
