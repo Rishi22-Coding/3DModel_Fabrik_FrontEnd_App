@@ -7,7 +7,7 @@ function Login() {
       <MDBRow className="row d-flex justify-content-center">
         <MDBCol md="6">
           <form>
-            <p className="h4 text-center mb-4">Sign in</p>
+            <p className="h4 text-center mb-4" style={{color: "black"}}>Sign in</p>
             <label htmlFor="defaultFormLoginEmailEx" className="grey-text">
               Your email
             </label>

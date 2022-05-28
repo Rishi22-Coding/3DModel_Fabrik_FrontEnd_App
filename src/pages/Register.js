@@ -7,7 +7,7 @@ function Register() {
       <MDBRow className="row d-flex justify-content-center">
         <MDBCol md="6">
           <form>
-            <p className="h4 text-center mb-4">Register</p>
+            <p className="h4 text-center mb-4" style={{color: "black"}}>Register</p>
             <label htmlFor="defaultFormLoginNameEx" className="grey-text">
               Your Name
             </label>
