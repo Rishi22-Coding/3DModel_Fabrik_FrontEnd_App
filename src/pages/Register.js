@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdbreact";
 
 function Register() {
   return (

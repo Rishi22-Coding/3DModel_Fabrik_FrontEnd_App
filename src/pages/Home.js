@@ -1,7 +1,6 @@
 import { Canvas } from "@react-three/fiber";
-import { Center, OrbitControls } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import React, { Suspense } from "react";
-import styled from "styled-components";
 import Iphone from "../components/threeJS/Iphone.js";
 import Cheerios from "../components/threeJS/Cheerios.js";
 import SwissMuseli from "../components/threeJS/SwissMuseli.js";
